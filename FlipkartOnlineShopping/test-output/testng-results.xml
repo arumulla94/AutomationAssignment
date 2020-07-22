@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser launced successfully]]>
+    </line>
+    <line>
+      <![CDATA[Logged into Flipkart Application Successfullly]]>
+    </line>
+    <line>
+      <![CDATA[Product added to cart]]>
+    </line>
+    <line>
+      <![CDATA[Validated product deails and added to cart]]>
+    </line>
+    <line>
+      <![CDATA[Item removed from cart]]>
+    </line>
+    <line>
+      <![CDATA[Driver closed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser launced successfully]]>
+    </line>
+    <line>
+      <![CDATA[Logged into Flipkart Application Successfullly]]>
+    </line>
+    <line>
+      <![CDATA[Product added to cart]]>
+    </line>
+    <line>
+      <![CDATA[Validated product deails and added to cart]]>
+    </line>
+    <line>
+      <![CDATA[Item removed from cart]]>
+    </line>
+    <line>
+      <![CDATA[Driver closed successfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Purchase Product in FLipkart" duration-ms="69848" started-at="2020-07-22T08:47:55Z" finished-at="2020-07-22T08:49:04Z">
+    <groups>
+    </groups>
+    <test name="Puchase Camera in Chrome Browser" duration-ms="40687" started-at="2020-07-22T08:47:55Z" finished-at="2020-07-22T08:48:35Z">
+      <class name="tests.PurchaseProduct">
+        <test-method status="PASS" signature="browserSetup(java.lang.String)[pri:0, instance:tests.PurchaseProduct@4e1d422d]" name="browserSetup" is-config="true" duration-ms="6588" started-at="2020-07-22T14:17:55Z" finished-at="2020-07-22T14:18:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launced successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method status="PASS" signature="buyProduct(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PurchaseProduct@4e1d422d]" name="buyProduct" duration-ms="29825" started-at="2020-07-22T14:18:02Z" data-provider="testdata" finished-at="2020-07-22T14:18:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testautomation9876@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Flipkart!234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Logged into Flipkart Application Successfullly]]>
+            </line>
+            <line>
+              <![CDATA[Product added to cart]]>
+            </line>
+            <line>
+              <![CDATA[Validated product deails and added to cart]]>
+            </line>
+            <line>
+              <![CDATA[Item removed from cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- buyProduct -->
+        <test-method status="PASS" signature="closedriver()[pri:0, instance:tests.PurchaseProduct@4e1d422d]" name="closedriver" is-config="true" duration-ms="3880" started-at="2020-07-22T14:18:31Z" finished-at="2020-07-22T14:18:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- tests.PurchaseProduct -->
+    </test> <!-- Puchase Camera in Chrome Browser -->
+    <test name="Puchase Camera in Edge Browser" duration-ms="29142" started-at="2020-07-22T08:48:35Z" finished-at="2020-07-22T08:49:04Z">
+      <class name="tests.PurchaseProduct">
+        <test-method status="PASS" signature="browserSetup(java.lang.String)[pri:0, instance:tests.PurchaseProduct@6c3708b3]" name="browserSetup" is-config="true" duration-ms="5572" started-at="2020-07-22T14:18:35Z" finished-at="2020-07-22T14:18:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launced successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method status="PASS" signature="buyProduct(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.PurchaseProduct@6c3708b3]" name="buyProduct" duration-ms="22057" started-at="2020-07-22T14:18:41Z" data-provider="testdata" finished-at="2020-07-22T14:19:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testautomation9876@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Flipkart!234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Logged into Flipkart Application Successfullly]]>
+            </line>
+            <line>
+              <![CDATA[Product added to cart]]>
+            </line>
+            <line>
+              <![CDATA[Validated product deails and added to cart]]>
+            </line>
+            <line>
+              <![CDATA[Item removed from cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- buyProduct -->
+        <test-method status="PASS" signature="closedriver()[pri:0, instance:tests.PurchaseProduct@6c3708b3]" name="closedriver" is-config="true" duration-ms="1487" started-at="2020-07-22T14:19:03Z" finished-at="2020-07-22T14:19:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Driver closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- tests.PurchaseProduct -->
+    </test> <!-- Puchase Camera in Edge Browser -->
+  </suite> <!-- Purchase Product in FLipkart -->
+</testng-results>

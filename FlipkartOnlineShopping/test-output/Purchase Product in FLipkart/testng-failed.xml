@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Purchase Product in FLipkart]">
+  <parameter name="browser" value="edge"/>
+  <test name="Puchase Camera in Chrome Browser">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.PurchaseProduct"/>
+    </classes>
+  </test> <!-- Puchase Camera in Chrome Browser -->
+  <test name="Puchase Camera in Edge Browser">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="tests.PurchaseProduct"/>
+    </classes>
+  </test> <!-- Puchase Camera in Edge Browser -->
+</suite> <!-- Failed suite [Purchase Product in FLipkart] -->
